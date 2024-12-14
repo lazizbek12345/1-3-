@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+.header{
+    width: 1440px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+.container{
+    padding: 0 171px;
+}
+.nav{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #DEDBDB;
+}
+.logo{
+    width: 175px;
+    height: 47px;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.lang h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+}
+
+.form{
+    width: 650px;
+    height: 786px;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 66px 65px 0 65px;
+}
+.form-menu{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formtext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.formtext h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #F0400F;
+
+}
+.formtext img{
+    width: 27px;
+    height: 23px;
+}
+.form-h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    margin-top: 130px;
+    text-align: center;
+    color: #0E0D5D;
+}
+.vibor{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 11px;
+    margin-top: 40px;
+}
+.vibor-item{
+    width: 255px;
+    height: 54px;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    text-align: center;
+    align-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: #757575;
+}
+.vibor-item:active{
+    background-color: white;
+    color: black;
+}
+.forminput input{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid #75757530;
+    background-color: #FAFAFA;
+    padding-left: 51px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    margin-top: 40px ;
+}
+.forminput h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #000000A3;
+    margin-top: 18px;
+    /* margin-bottom: 31px; */
+}
+.btn{
+    width: 202px;
+    height: 67px;
+    margin-top: 31px;
+    border-radius: 20px;
+    background-color: #F69E86;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background-color: #ffff00;
+    transition: all 1s;
+}
